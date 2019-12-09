@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        // "script": "~/server/index.ts",
+        "target": "esnext",
+        // "module": "esnext", // 采用的模块系统
+        "module": "commonjs",
+        "moduleResolution": "node", // 如何处理模块
+        "lib": ["esnext", "esnext.asynciterable", "dom"],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "sourceMap": true, // 把 ts 文件编译成 js 文件的时候，同时生成对应的 map 文件
+        "strict": true,
+        "noEmit": true,
+        "removeComments": true, // 编译 js 的时候，删除掉注释
+        "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入
+        "experimentalDecorators": true, // 启用实验性的ES装饰器。
+        "skipLibCheck": true,
+        "noImplicitAny": false, // false-对不知道的类型默认为any处理
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["./*"],
+            "@/*": ["./*"]
+        },
+        "types": [
+            "@types/node",
+            "@nuxt/types",
+            "@nuxt/vue-app",
+            "@nuxtjs/axios"
+        ],
+        "pretty": true // 给错误和消息设置样式，使用颜色和上下文。
+    },
+    "exclude": ["node_modules"]
+}

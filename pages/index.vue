@@ -2,11 +2,9 @@
     <div class="container">
         <div>
             <logo />
-            <h1 class="title">
-                trumpetCloud
-            </h1>
+            <h1 class="title"></h1>
             <h2 class="subtitle">
-                喇叭花云 - 前端工程
+                数据科学云 - 前端工程
             </h2>
             <div class="links">
                 <a

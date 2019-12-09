@@ -1,8 +1,8 @@
 {
-    "name": "trumpetCloud",
+    "name": "dataCloudIIOfficialWeb",
     "version": "1.0.0",
-    "description": "喇叭花云 - 前端工程",
-    "author": "张庭玮",
+    "description": "数据科学云官网 - 前端工程",
+    "author": "caiqingqiu",
     "private": true,
     "scripts": {
         "dev": "cross-env NODE_ENV=development nodemon server/index.ts --watch server",

@@ -8,10 +8,10 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: '喇叭花云',
+        title: '数据科学云',
         titleTemplate: (titleChunk) => {
             // If undefined or blank then we don't need the hyphen
-            return titleChunk ? `${titleChunk} - 喇叭花云` : '喇叭花云'
+            return titleChunk ? `${titleChunk} - 数据科学云` : '数据科学云'
         },
         meta: [
             { charset: 'utf-8' },
@@ -22,7 +22,7 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: '喇叭花云'
+                content: '数据科学云'
             },
             {
                 name: 'version',

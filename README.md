@@ -1,10 +1,10 @@
 # trumpetCloud
 
-> 喇叭花云 - 前端工程
+> 数据科学云 - 前端工程
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

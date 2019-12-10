@@ -59,6 +59,7 @@ export default {
         '~/plugins/element-ui.ts',
         '~/plugins/log.ts',
         '~/plugins/axios.ts',
+        '~/plugins/regexp.ts',
         {
             src: '~/plugins/echarts.ts',
             mode: 'client'

@@ -4,6 +4,7 @@
             :label-position="labelPosition"
             label-width="80px"
             :model="applyForm"
+            :rules="rules"
         >
             <el-form-item label="申请人姓名">
                 <el-input v-model="applyForm.username"></el-input>
@@ -60,6 +61,38 @@ export default class ApplyPage extends Vue {
         usage: ''
     }
     private labelPosition: string = 'top'
+    private rules = {
+        // username: [
+        //     {
+        //         validator: this.checkUser,
+        //         trigger: 'blur'
+        //     }
+        // ]
+        // phone: [{
+        //     validator: this.checkPhone,
+        //     trigger: 'blur'
+        // }],
+        // companyName: [{
+        //     validator: this.checkCompany,
+        //     trigger: 'blur'
+        // }],
+        // jobName: [{
+        //     validator: this.checkJob,
+        //     trigger: 'blur'
+        // }],
+        // companyEmail: [{
+        //     validator: this.checkEmail,
+        //     trigger: 'blur'
+        // }],
+        // verifyCode: [{
+        //     validator: this.checkVerifyCode,
+        //     trigger: 'blur'
+        // }],
+        // usage: [{
+        //     validator: this.checkUsage,
+        //     trigger: 'blur'
+        // }]
+    }
 }
 </script>
 
